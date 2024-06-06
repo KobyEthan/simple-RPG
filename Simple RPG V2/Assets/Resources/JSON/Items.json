@@ -1,0 +1,60 @@
+[
+  {
+    "objectSlug": "sword",
+    "itemName": "Sword",
+    "description": "A long, sharp blade.",
+    "itemType": "Weapon",
+    "actionName": "Equip",
+    "itemModifier": 0,
+    "Stats": [
+      {
+        "StatType": "Damage",
+        "BaseValue": 25,
+        "StatName": "Damage"
+      },
+      {
+        "StatType": "AttackSpeed",
+        "BaseValue": 4,
+        "StatName": "Atk Spd"
+      }
+    ]
+  },
+  {
+    "objectSlug": "staff",
+    "itemName": "Staff",
+    "description": "A long staff, which looks a lot like the sticks on the ground, but it shoots fireballs.",
+    "itemType":  "Weapon",
+    "actionName": "Equip",
+    "itemModifier": 0,
+    "Stats": [
+
+        {
+            "StatType": "Damage",
+            "BaseValue": 25,
+            "StatName": "Damage"
+        },
+        {
+            "StatType": "AttackSpeed",
+            "BaseValue": 2,
+            "StatName": "Atk Spd"
+        }
+    ]
+  },
+    {
+        "objectSlug": "potion_log",
+        "itemName": "Log Potion",
+        "description": "A potion that logs something to the console.",
+        "itemType": "Consumable",
+        "actionName": "Drink",
+        "itemModifier": 0
+    },
+
+    {
+        "objectSlug": "potion_health",
+        "itemName": "Health Potion",
+        "description": "A potion that recovers 10 points of health.",
+        "itemType": "Consumable",
+        "actionName": "Drink",
+        "itemModifier": 0
+    }
+]
