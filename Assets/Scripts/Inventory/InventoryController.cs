@@ -22,7 +22,6 @@ public class InventoryController : MonoBehaviour
         GiveItem("sword");
         GiveItem("staff");
         GiveItem("potion_log");
-        GiveItem("potion_health");
     }
 
     public void GiveItem(string itemSlug)
